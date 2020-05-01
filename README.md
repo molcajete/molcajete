@@ -11,5 +11,6 @@ A task (for now) is an event from a GitHub webhook, the payload gets processed,
 and then a task is created, for example, for every commit to the git branches
 development or master, a task is created.
 
-Once the worker receives a task it will create a FreeBSD jail and within it will
-run all the tasks defined in `molcajete.yml` reporting back the results.
+Once the worker receives a task it will create a
+[FreeBSD jail](https://www.freebsd.org/doc/handbook/jails.html) and within it
+will run all the tasks defined in `molcajete.yml` reporting back the results.
